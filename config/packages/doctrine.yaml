@@ -7,6 +7,8 @@ doctrine:
         #server_version: '16'
 
         profiling_collect_backtrace: '%kernel.debug%'
+          # Ajoutez cette option pour désactiver les savepoints
+
         use_savepoints: true
     orm:
         auto_generate_proxy_classes: true
